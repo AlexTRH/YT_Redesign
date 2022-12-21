@@ -1,0 +1,10 @@
+@import url(./base.css);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./variables.css);
+
+body {
+    font-family: 'Mulish';
+    display: flex;
+    flex-direction: column;
+}
