@@ -3,8 +3,13 @@
 @import url(./header.css);
 @import url(./variables.css);
 
-body {
+.wrapper {
     font-family: 'Mulish';
     display: flex;
     flex-direction: column;
+
+}
+
+input {
+    outline: none;
 }

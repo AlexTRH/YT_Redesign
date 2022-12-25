@@ -1,4 +1,57 @@
 header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+}
+
+.logo {
+    
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.logo svg {
+    display: block;
+}
+
+
+.icons {
+    display: flex;
+    /* margin-left: auto; */
+}
+
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    position: relative;
+    align-items: center;
+}
+
+.search_bar input {
+    height: inherit;
+}
+
+.search_button {
+    background: none;
+    position: absolute;
+    height: 41%;
+    right: 2.1%;
+}
+
+#search-field {
+    background-color: #F9F9F9;
+    border-radius: 22px;
+    border-style: none;
+    padding-left: 2.8%;
+    padding-right: 3.6%;
+}
+
+#search-field::placeholder {
+    color: #30384C;
+    opacity: 40%;
 }
