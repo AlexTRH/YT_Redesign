@@ -1,14 +1,17 @@
 header {
     display: flex;
+    /* box-sizing: border-box; */
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    height: 64px;
+    /* justify-content: space-between; */
+    /* height: 64px; */
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 3.125em;
 }
 
 .logo {
-    
+
     display: flex;
     align-items: center;
     height: inherit;
@@ -18,10 +21,24 @@ header {
     display: block;
 }
 
+.menu_burger {
+    margin-right: 1.75em;
+    
+}
+
+.youtube_logo {
+    margin-right: 3.75em;
+}
 
 .icons {
     display: flex;
     /* margin-left: auto; */
+    margin-left: 31.5625em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 14.5625em;
+    margin-right: 4.375em;
 }
 
 .search_bar {
@@ -30,28 +47,49 @@ header {
     height: 44px;
     position: relative;
     align-items: center;
+    width: 100%;
+    max-width: 51.875em;
+
 }
 
 .search_bar input {
     height: inherit;
+    width: 100%;
 }
 
 .search_button {
     background: none;
     position: absolute;
-    height: 41%;
-    right: 2.1%;
+    width: 18px;
+    right: 1.5em;
+    top: 54%;
+    transform: translateY(-50%);
+
 }
 
-#search-field {
+.search_input {
     background-color: #F9F9F9;
     border-radius: 22px;
     border-style: none;
-    padding-left: 2.8%;
-    padding-right: 3.6%;
+    padding-left: 23px;
+    padding-right: 4em;
+    
+
+
 }
 
-#search-field::placeholder {
+.search_input::placeholder {
     color: #30384C;
     opacity: 40%;
+}
+
+.notifications {
+    position: relative;
+}
+
+.three {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(30%,-35%);
 }

@@ -7,9 +7,16 @@
     font-family: 'Mulish';
     display: flex;
     flex-direction: column;
+    margin-left: 2em;
+
 
 }
 
 input {
     outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
