@@ -1,6 +1,164 @@
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    
+    padding-top: 20px;
 }
 
+.nav {
+    width: 224px;
+}
+
+.sidebar_links {
+    gap: 29.5px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sidebar_link {
+    display: flex;
+}
+
+.sidebar_link_content {
+    display: flex;
+    position: relative;
+}
+
+.link_icon {
+    position: absolute;
+}
+
+.home_link {
+    width: 20px;
+    height: 19px;
+    left: 2px;
+}
+
+.trending_link {
+    width: 16px;
+    height: 21px;
+    left: 4px;
+}
+
+.subscriptions_link {
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    left: 3px;
+}
+
+.link_title {
+    padding-left: 10px;
+    font-size: var(--normal-font-size);
+    color: var(--light-text-color);
+    font-weight: var(--font-regular);
+}
+
+.link_menu_title {
+    padding-left: 35px;
+}
+
+.secondary_links {
+    padding: 57px 0px 55px;
+}
+
+.library_link {
+    width: 20px;
+    height: 16px;
+    left: 2px;
+    top: 2px;
+}
+
+.history_link {
+    width: 20px;
+    height: 18px;
+    left: 2px;
+}
+
+.watch_later_link {
+    width: 17px;
+    height: 19px;
+    left: 4px;
+}
+
+.favourites_link {
+    width: 19px;
+    height: 18px;
+    left: 3px;
+}
+
+.liked_videos_link {
+    width: 18px;
+    height: 17px;
+    left: 3px;
+}
+
+.music_link {
+    width: 18px;
+    height: 20px;
+    left: 3px;
+}
+
+.games_link {
+    width: 22px;
+    height: 16px;
+}
+
+.show_more_link {
+    width: 14px;
+    height: 8px;
+    left: 5px;
+    top: 5px;
+}
+
+.active_link {
+    color: var(--active);
+}
+
+.subscriptions {
+    padding-bottom: 106px;
+}
+
+.subscriptions_title {
+    padding-bottom: 28px;
+    font-size: var(--medium-font-size);
+}
+
+.subscriptions_list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    list-style: none;
+}
+
+.subscriptions_list_title {
+    padding-top: 6px;
+}
+
+.subscriptions_item {
+    display: flex;
+    align-items: center;
+}
+
+.subscriptions_link {
+    display: flex;
+}
+
+.subscriptions_item img {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 3px;
+}
+
+.setting {
+    display: flex;
+}
+
+.setting_link {
+    display: flex;
+}
+
+.setting_title {
+    padding: 2px 0px 0px 14px;
+    font-weight: var(--font-regular);
+    color: var(--light-text-color);
+}

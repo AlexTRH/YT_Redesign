@@ -1,3 +1,13 @@
 :root {
     --transition-delay: .2s;
+    --light-text-color: #898989;
+    --dark-text-color: #19202c;
+    --active: #ff0000;
+    --huge-font-size: 36px;
+    --big-font-size: 26px;
+    --medium-font-size: 18px;
+    --normal-font-size: 16px;
+    --small-font-size: 13px;
+    --font-medium: 500;
+    --font-regular: 400;
 }

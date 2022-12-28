@@ -1,22 +1,36 @@
-@import url(./base.css);
-@import url(./reset.css);
+/* @import url(./reset.css); */
 @import url(./header.css);
 @import url(./variables.css);
+@import url(./sidebar.css);
+@import url(./content.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish";
+}
+
+h1 a,
+h4 a {
+    color: var(--dark-text-color);
+}
+
+h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
 
 .wrapper {
-    font-family: 'Mulish';
-    display: flex;
-    flex-direction: column;
-    margin-left: 2em;
-
-
+    width: 98%;
+    max-width: 1860px;
+    margin: 0 auto;
+    padding-top: 22px;
 }
 
-input {
-    outline: none;
-}
-
-main {
+.main {
     display: flex;
-    flex-direction: column;
 }
