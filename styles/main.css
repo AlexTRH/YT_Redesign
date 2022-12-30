@@ -1,36 +1,43 @@
-/* @import url(./reset.css); */
-@import url(./header.css);
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
 @import url(./variables.css);
+@import url(./header.css);
 @import url(./sidebar.css);
 @import url(./content.css);
+@import url(./slider.css);
+@import url(./channel.css);
+@import url(./player.css);
+@import url(./media-queries.css);
+
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Mulish";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
 }
 
 h1 a,
 h4 a {
-    color: var(--dark-text-color);
-}
-
-h3 {
-    font-weight: bold;
+  color: var(--dark-text-color);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding-bottom: 28px;
+}
+
+
+.main {
+  display: flex;
 }
 
 .wrapper {
-    width: 98%;
-    max-width: 1860px;
-    margin: 0 auto;
-    padding-top: 22px;
-}
-
-.main {
-    display: flex;
+  width: 98%;
+  max-width: 1860px;
+  margin: 0 auto;
+  padding-top: 22px;
 }

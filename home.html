@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="./img/Shape.svg">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>YouTube</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="video_player_header">
+      <div class="main_links">
+        <a href="#">
+          <img class="menu" src="./img/menu.png" alt="menu" />
+        </a>
+        <a href="#">
+          <img class="logo" src="./img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <div class="video_player_header_buttons user_page_header_buttons">
+        <img class="responsive_search_button" src="./img/search.png" alt="search" />
+        <img class="responsive_user_picture" src="./img/Userpic.png" alt="more" />
+      </div>
+      <div class="controls_wrapper">
+        <div class="search_bar">
+          <form class="form">
+            <input class="search_input" type="text" placeholder="Search" />
+            <a class="search_button" href="#">
+              <img src="./img/search.png" alt="search button" />
+            </a>
+          </form>
+        </div>
+        <div class="controls">
+          <ul class="controls_list">
+            <li>
+              <a href="#">
+                <img class="" src="./img/video.png" alt="video" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="controls_settings_icon" src="./img/settings.png" alt="settings" />
+              </a>
+            </li>
+            <li class="notification_button">
+              <a href="#">
+                <img src="./img/notification.png" alt="notification" />
+              </a>
+              <span class="notification_number">3</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./img/Userpic.png" alt="user" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <sidebar class="sidebar">
+        <nav class="nav">
+          <ul class="sidebar_list">
+            <li class="sidebar_link">
+              <a href="#" class="sidebar_link_content">
+                <img class="link_icon home_link" src="./img/home-link.png" alt="home" />
+                <h4 class="sidebar_link_menu_title sidebar_link_title active_link">
+                  Home
+                </h4>
+              </a>
+            </li>
+            <li class="sidebar_link">
+              <a href="#" class="sidebar_link_content"><img class="link_icon trending_link"
+                  src="./img/trending-link.png" alt="trending" />
+                <h4 class="sidebar_link_menu_title sidebar_link_title">
+                  Trending
+                </h4>
+              </a>
+            </li>
+            <li class="sidebar_link">
+              <a href="#" class="sidebar_link_content"><img class="link_icon subs_link" src="./img/subs-link.png"
+                  alt="subscription" />
+                <h4 class="sidebar_link_menu_title sidebar_link_title">
+                  Subscriptions
+                </h4>
+              </a>
+            </li>
+          </ul>
+          <div class="secondary_links">
+            <ul class="sidebar_list">
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon library_link" src="./img/lib-link.png"
+                    alt="home" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Library
+                  </h4>
+                </a>
+              </li>
+
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon history_link"
+                    src="./img/history-link.png" alt="trending" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    History
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon watch_later_link"
+                    src="./img/watch-later-link.png" alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Watch later
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon favorites_link" src="./img/fav-link.png"
+                    alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Favourites
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon liked_link" src="./img/likes-link.png"
+                    alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Liked videos
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon music_link" src="./img/music-link.png"
+                    alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Music
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon games_link" src="./img/games-link.png"
+                    alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Games
+                  </h4>
+                </a>
+              </li>
+              <li class="sidebar_link">
+                <a href="#" class="sidebar_link_content"><img class="link_icon show_more_link"
+                    src="./img/show-more-link.png" alt="subscription" />
+                  <h4 class="sidebar_link_menu_title sidebar_link_title">
+                    Show more
+                  </h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="subscriptions">
+          <h3 class="subscriptions_title">Subscriptions</h3>
+          <ul class="subscriptions_list">
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-1.png" alt="user-1" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Gussie Singleton
+                </h4>
+              </a>
+            </li>
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-2.png" alt="user-2" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Nora Francis
+                </h4>
+              </a>
+            </li>
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-3.png" alt="user-3" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Belle Briggs
+                </h4>
+              </a>
+            </li>
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-4.png" alt="user-4" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Eunice Cortez
+                </h4>
+              </a>
+            </li>
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-5.png" alt="user-5" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Emma Hanson
+                </h4>
+              </a>
+            </li>
+            <li class="subscriptions_item">
+              <a href="#" class="subscriptions_link"><img src="./img/sub-6.png" alt="user-6" />
+                <h4 class="sidebar_link_title subscriptions_list_title">
+                  Leah Berry
+                </h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="setting">
+          <a href="#" class="setting_link"><img src="./img/setting-app.png" alt="setting" />
+            <h4 class="setting_title">Setting</h4>
+          </a>
+        </div>
+      </sidebar>
+      <section class="main_content">
+        <section class="user_section section">
+          <div class="section_data">
+            <div class="section_data_content">
+              <img class="section_title_img" src="./img/sub-1.png" alt="user-picture" />
+              <h1 class="section_title home_page_title">Dollie Blair</h1>
+            </div>
+
+            <div class="slider_controls">
+              <button class="slide_previous slider_icon"></button>
+              <button class="slide_next slider_icon"></button>
+            </div>
+          </div>
+          <div class="slider user_page_slider">
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-1.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">4:15</span>
+                </div>
+              </div>
+
+              <h4 class="slider_item_title">A Brief History Of Creation</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>80k views </span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>3 days ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-2.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">8:00</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Selecting The Right Hotel</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>123k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>1 months ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-3.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">5:32</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Asteroids</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>43k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>12 days ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-4.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">6:40</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Telescopes 101</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>11k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>6 months ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-5.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">1:45</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Medical Care Is Just</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>18k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>2 days ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-1-6.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">2:12</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Moon Gazing</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>67k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>4 months ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="recommended_section section">
+          <div class="section_data">
+            <div class="section_data_content">
+              <h2 class="section_title home_page_title title_recommended">
+                Recommended
+              </h2>
+            </div>
+            <div class="slider_controls">
+              <button class="slide_previous slider_icon"></button>
+              <button class="slide_next slider_icon"></button>
+            </div>
+          </div>
+
+          <div class="slider user_page_slider">
+            <div class="slider_item slider_item_big">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-big-1.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">3:40</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">
+                Dude You Re Getting A Telescope
+              </h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container container_small_font">
+                  <span>34k views </span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>5 months ago</span>
+                </div>
+                <span>Gussie French</span>
+              </div>
+            </div>
+            <div class="slider_item slider_item_big">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-big-2.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">2:12</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Moon Gazing</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container container_small_font">
+                  <span>54k views </span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>11 months ago</span>
+                </div>
+                <span>Edward Osborne</span>
+              </div>
+            </div>
+            <div class="slider_item slider_item_big">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-big-3.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">2:12</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Moon Gazinge</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container container_small_font">
+                  <span>125k views </span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>4 months ago</span>
+                </div>
+                <span>Dollie Blair</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section_data">
+            <div class="section_data_content">
+              <img class="section_title_img" src="./img/food$drink.png" alt="section-picture" />
+              <h1 class="section_title home_page_title">Food & Drink</h1>
+              <span class="slider_title_description">Recommended channel for you</span>
+            </div>
+            <div class="section_subscribe_button home_page_subscribe">
+              <button class="subscribe_button">Subscribe 2.3m</button>
+            </div>
+            <div class="slider_controls">
+              <button class="slide_previous slider_icon"></button>
+              <button class="slide_next slider_icon"></button>
+            </div>
+          </div>
+
+          <div class="slider user_page_slider">
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-1.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">7:36</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Astronomy Or Astrology</h4>
+              <div class="slider_item_description">
+                <div class="slider_item_description_container">
+                  <span>240k views</span>
+                  <span class="slider_item_comma"> · </span>
+                  <span>4 months ago</span>
+                </div>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-2.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">2:19</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Advertising Outdoors</h4>
+              <div class="slider_item_description">
+                <span>13k views</span>
+                <span>15 days ago</span>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-3.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">9:05</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Radio Astronomy</h4>
+              <div class="slider_item_description">
+                <span>1k views</span>
+                <span>11 months ago</span>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-4.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">3:40</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">A Good Autoresponder</h4>
+              <div class="slider_item_description">
+                <span>45k views</span>
+                <span>2 months ago</span>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-5.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">1:56</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Baby Monitor Technology</h4>
+              <div class="slider_item_description">
+                <span>86k views</span>
+                <span>7 days ago</span>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="slider_item_video">
+                <img class="slider_item_img" src="./img/cover-small-2-6.png" alt="cover" />
+                <div class="slider_item_timer">
+                  <span class="slider_item_time">4:15</span>
+                </div>
+              </div>
+              <h4 class="slider_item_title">Asteroids</h4>
+              <div class="slider_item_description">
+                <span>123k views</span>
+                <span>4 months ago</span>
+                <span>Food & Drink</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!--========== RESPONSIVE VIDEO CONTROLS ==========-->
+      <!--========== FOOTER ==========-->
+      <footer class="responsive_footer">
+        <ul class="footer_list">
+          <li class="sidebar_link footer_link">
+            <a href="#">
+              <img class="home_link" src="./img/home-link.png" alt="home" /></a>
+            <a href="#">
+              <h4 class="sidebar_link_title footer_link_title">Home</h4>
+            </a>
+          </li>
+          <li class="sidebar_link footer_link">
+            <a href="#"><img class="trending_link" src="./img/trending-link.png" alt="trending" /></a>
+            <a href="#">
+              <h4 class="sidebar_link_title footer_link_title">Trending</h4>
+            </a>
+          </li>
+          <li class="sidebar_link footer_link">
+            <a href="#"><img class="subs_link" src="./img/subs-link.png" alt="subscription" /></a>
+            <a href="#">
+              <h4 class="sidebar_link_title footer_link_title">
+                Subscriptions
+              </h4>
+            </a>
+          </li>
+          <li class="sidebar_link footer_link">
+            <a href="#"><img class="library_link" src="./img/lib-link.png" alt="home" /></a>
+            <a href="#">
+              <h4 class="sidebar_link_title footer_link_title">Library</h4>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>

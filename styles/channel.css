@@ -1,0 +1,156 @@
+.section_channel_img {
+    width: 80px;
+    height: 80px;
+}
+
+.section_channel_description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.banner_container img {
+    width: 100%;
+}
+
+.banner_section {
+    padding-bottom: 26px;
+}
+
+.channel_section {
+    padding-bottom: 60px;
+}
+
+.banner_section,
+.channel_section {
+    width: 96.5%;
+}
+
+.channel_data {
+    width: auto;
+    justify-content: unset;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section_settings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.section_channel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_channel_title {
+    letter-spacing: 1px;
+}
+
+.section_channel_paragraph {
+    color: var(--light-text-color);
+}
+
+.current_channel_menu_responsive {
+    display: none;
+}
+
+.current_channel {
+    width: 70%;
+}
+
+.current_channel_menu {
+    display: flex;
+    gap: 70px;
+}
+
+.current_channel_link {
+    list-style: none;
+}
+
+.current_channel_link a {
+    font-size: var(--medium-font-size);
+    color: var(--dark-text-color);
+}
+
+.current_channel_icon {
+    width: 18.21px;
+    height: 18.21px;
+}
+
+.section_channel_user {
+    display: flex;
+    align-items: center;
+}
+
+.section_channel_content {
+    display: flex;
+    padding-top: 60px;
+}
+
+.channel_content_data {
+    position: relative;
+    margin: 18px 0px 18px 32px;
+}
+
+.content_title {
+    width: 75%;
+    margin-bottom: 12px;
+    font-size: var(--big-font-size);
+}
+
+.content_description {
+    line-height: 22px;
+    color: var(--light-text-color);
+}
+
+.content_info {
+    position: absolute;
+    bottom: 0;
+    color: var(--light-text-color);
+}
+
+.recommended_channel {
+    padding-right: 88px;
+}
+
+.recommended_channel_title {
+    padding-bottom: 32px;
+    font-weight: var(--font-regular);
+    color: var(--light-text-color);
+}
+
+.recommended_channel_list {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    list-style: none;
+}
+
+.recommended_channel_link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.recommended_channel_link a {
+    color: var(--light-text-color);
+}
+
+.channel_link_title {
+    font-size: var(--medium-font-size);
+    font-weight: var(--font-medium);
+}
+
+.slider_controls_channel {
+    top: 5px;
+}
+
+.videos_section .section_data {
+    width: auto;
+    padding-left: 6px;
+}
